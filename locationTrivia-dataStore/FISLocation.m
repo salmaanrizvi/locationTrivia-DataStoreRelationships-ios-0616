@@ -68,4 +68,8 @@
      */
 }
 
+-(NSString *)description {
+    return [NSString stringWithFormat:@"Location name: %@", self.name];
+}
+
 @end
